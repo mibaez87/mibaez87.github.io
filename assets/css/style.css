@@ -1,0 +1,128 @@
+body {
+    background-image: url("../images/pow_star/pow-star.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+header {
+    height: 75px;
+    /* width: 100%; */
+    margin: 0;
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 0;
+    position: relative;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+    width: 250px;
+    height: 100%;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 700px;
+    position: fixed;
+
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#AboutMe {
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 650px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    float: left;
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid rgb(204, 200, 200);
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+p {
+    /* padding-left: 160px; */
+    clear: right;
+}
+
+#Selfie{
+    height: 200px;
+    width: 250px;
+    float: left;
+    clear: right;
+}
+
+#SideBar {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    font-size: 21px;
+    width: 270px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+    padding-left: 5px;
+    float: left;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 22px;
+    border-bottom: 2px solid rgb(204, 200, 200);
+    padding-bottom: 15px;
+}
+
+#StackOverflow {
+    padding-top: 4px;
+    margin-left: 3px;
+    height: 57px;
+    width: 57px;
+    float:left;
+}
+
+#GitHub {
+    margin-left: 39px;
+}
+
+#GitHub,
+#LinkedIn {
+    height: 64px;
+    width: 64px;
+    float: left;
+}
+
+ul a:link {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #666666;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 5px;
+    clear: both;
+}
