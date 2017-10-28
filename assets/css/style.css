@@ -34,9 +34,13 @@ nav {
     float: left;
     margin: 0 auto;
     padding-top: 10px;
-    padding-left: 700px;
+    padding-left: 670px;
     position: fixed;
+}
 
+ul a:link {
+    text-decoration: none;
+    color: #dddddd;
 }
 
 .container {
@@ -117,11 +121,6 @@ h3{
     height: 64px;
     width: 64px;
     float: left;
-}
-
-ul a:link {
-    text-decoration: none;
-    color: #dddddd;
 }
 
 footer {
