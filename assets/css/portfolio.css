@@ -53,6 +53,7 @@ ul a:link {
     background-color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     width: 450px;
+    height: 580px;
     margin-right: 5px;
     margin-bottom: 20px;
     padding: 30px;
@@ -82,15 +83,6 @@ h2 {
 #headphones,
 #sony {
     margin-top: 35px;
-}
-
-#turntable,
-#laptop,
-#circuit,
-#headphones,
-#sony {
-    width: 210px;
-    height: 140px;
 }
 
 #SideBar {
