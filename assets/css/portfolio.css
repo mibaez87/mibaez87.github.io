@@ -73,22 +73,22 @@ h2 {
     float: left;
 }
 
-#sony,
-#copper {
+#laptop,
+#headphones {
     margin-left: 25px;
 }
 
-#sonyTwo,
-#copper,
-#headphones {
+#circuit,
+#headphones,
+#sony {
     margin-top: 35px;
 }
 
 #turntable,
-#sony,
-#sonyTwo,
-#copper,
-#headphones {
+#laptop,
+#circuit,
+#headphones,
+#sony {
     width: 210px;
     height: 140px;
 }
