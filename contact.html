@@ -31,17 +31,20 @@
             <h2>Contact</h2>
 
             <div class="contactform">
-                <form action="/action_page.php">
+                <form action="mailto:simplysomethin@gmail.com" method="post" enctype="text/plain">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="John Smith">                            
+                    <br>
+                    <input type="text" id="name" name="name" style="height:29px" placeholder="John Smith">                            
                   
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                    <br>
+                    <input type="text" id="email" name="email" style="height:29px" placeholder="example@gmail.com">
 
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Share your thoughts" style="height:200px"></textarea>
+                    <br>
+                    <textarea id="message" name="message" style="height:200px"></textarea>
               
-                    <input type="submit" value="Submit">
+                    <input id="button" type="submit" value="Submit">
                 </form>
             </div>        
         </section>
@@ -64,7 +67,7 @@
     </div>
     
         <footer>
-            <p>&copy; Copyright 2017 Michel Baez</p>
+            <p id="footerText">&copy; Copyright 2017 Michel Baez</p>
         </footer>
 
 </body>
