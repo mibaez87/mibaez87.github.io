@@ -52,11 +52,11 @@ ul a:link {
 #PortfolioGallery {
     background-color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    height: 400px;
-    width: 553px;
+    width: 450px;
     margin-right: 5px;
     margin-bottom: 20px;
     padding: 30px;
+    padding-bottom: 10px;
     float: left;
     border: 1px solid #dddddd;
 }
@@ -67,6 +67,30 @@ h2 {
     border-bottom: 3px solid #dddddd;
     padding-bottom: 20px;
     font-size: 30px;
+}
+
+.icons {
+    float: left;
+}
+
+#sony,
+#copper {
+    margin-left: 25px;
+}
+
+#sonyTwo,
+#copper,
+#headphones {
+    margin-top: 35px;
+}
+
+#turntable,
+#sony,
+#sonyTwo,
+#copper,
+#headphones {
+    width: 210px;
+    height: 140px;
 }
 
 #SideBar {
