@@ -4,61 +4,69 @@
     <meta charset="UTF-8">
     
     <title>Contact Michel Baez</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style/reset.css">
 </head>
 
 <body>
+
     <header>
         <h1>Michel Baez</h1>
 
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-
+        <nav>
+                <ul>
+                <a href="index.html">About &nbsp; &vert; &nbsp;</a>
+                <a href="portfolio.html">Portfolio &nbsp; &vert; &nbsp;</a>
+                <a href="contact.html">Contact</a>
+                </ul>
+            </nav>
     </header>
                 
-    <section id="ContactMe">
+    <div class="container">
+        
+        <section id="ContactMe">
                 
-        <h2>Contact</h2>
+            <h2>Contact</h2>
 
-        <div class="contactform">
+            <div class="contactform">
                 <form action="/action_page.php">
-              
-                  <label for="name">Name</label>
-                  <input type="text" id="name" name="name" placeholder="John Smith">                            
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Smith">                            
                   
-                  <label for="email">Email</label>
-                  <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
 
-                  <label for="message">Message</label>
-                  <textarea id="message" name="message" placeholder="Share your thoughts" style="height:200px"></textarea>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Share your thoughts" style="height:200px"></textarea>
               
-                  <input type="submit" value="Submit">
-              
+                    <input type="submit" value="Submit">
                 </form>
-              </div>
+            </div>        
+        </section>
                 
-    </section>
-                
-    <section id="SideBar">
+        <section id="SideBar">
                       
-        <h3>Connect With Me</h3>
+            <h3>Connect With Me</h3>
             
-        <a href="https://github.com/mibaez87" target="_blank">
+            <a href="https://github.com/mibaez87" target="_blank">
             <img id="GitHub" src="./assets/images/github.png" alt="GitHub User: MiBaez87 Profile">
-        </a>
-        <a href="www.linkedin.com/in/michel-baez-10340670">
+            </a>
+            <a href="www.linkedin.com/in/michel-baez-10340670">
             <img id="LinkedIn" src="./assets/images/linkedin.png" alt="Michel Baez Linkedin Profile">
-        </a>
-        <a href="https://stackoverflow.com/users/8527140/michel-baez?tab=profile">
+            </a>
+            <a href="https://stackoverflow.com/users/8527140/michel-baez?tab=profile">
             <img id="StackOverflow" src="./assets/images/overflow.png" alt="Michel Baez Linkedin Profile">
-        </a>
+            </a>
 
-    </section>
+        </section>
+    </div>
+    
+        <footer>
+            <p>&copy; Copyright 2017 Michel Baez</p>
+        </footer>
 
 </body>
-    
-    <footer>
-        <p>&copy; Copyright 2017 Michel Baez</p>
-    </footer>
 
 </html>
